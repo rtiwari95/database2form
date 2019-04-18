@@ -9,8 +9,8 @@ A project which generates CRUD form with basic user control and security feature
 	
 Dependencies
 ---
-	• Twitter Bootstrap
-	• jQuery
+• [Twitter Bootstrap](https://github.com/twbs/bootstrap/releases/download/v4.3.1/bootstrap-4.3.1-dist.zip)   
+• [jQuery](https://code.jquery.com/jquery-3.4.0.slim.js)
 	
 How to use
 ---
