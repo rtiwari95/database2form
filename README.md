@@ -38,7 +38,7 @@ How to use
 • Click Create Form to get desired forms generated.    
 • After downloading the project extract it using winrar or any other decompressing tool.
 	
-•  Copy and paste it(decompressed project) to your xampp\htdocs directory and in browser type url <Hostname>/<your project name>.  
+•  Copy and paste it(decompressed project) to your xampp\htdocs directory and in browser type url `<Hostname>/<your project name>`.  
 	`e.g.: localhost/test (where 'test' is generated project's name).`
 		
 • You can also modify the generated project according to your need and choice.
