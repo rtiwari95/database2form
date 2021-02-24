@@ -579,7 +579,7 @@ Class adminController extends baseController {
         if (isset($_REQUEST["id"])) {
 			$id = $_REQUEST["id"];
 			$admin_Model_obj = new admin_Model($this->registry->db);
-            $data = $admin_Model_obj->showStudentDataById($id);
+            $data = $admin_Model_obj->show'.ucwords(strtolower($table)).'DataById($id);
 			
             if(isset($_REQUEST["update"])){
 				$result = $admin_Model_obj->update'.ucwords(strtolower($table)).'Data($id);
@@ -872,7 +872,7 @@ class error404Controller extends baseController{
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student</title>
+    <title>'.ucwords(strtolower($table)).'</title>
     <style>
 		body{
 			 font: 12px verdana, sans-serif;
